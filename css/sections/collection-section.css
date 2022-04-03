@@ -1,0 +1,56 @@
+.vase__collection{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  width: 250px;
+  height: 300px;
+  justify-self: center;
+}
+.vase__collection i{
+  cursor: pointer;
+}
+.vase__collection i:hover{
+  color: var(--color-white);
+}
+.img__cutom__vases__4{
+  background-image: var(--collection-img-1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img__cutom__vases__5{
+  background-image: var(--collection-img-2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img__cutom__vases__6{
+  background-image: var(--collection-img-3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img__cutom__vases__7{
+  background-image: var(--collection-img-4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img__cutom__vases__8{
+  background-image: var(--collection-img-5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+@media screen and (min-width: 800px) {
+  .vase__collection__section {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .vase__collection{
+    margin-left: 20px;
+  }
+}

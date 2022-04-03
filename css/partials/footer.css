@@ -1,0 +1,13 @@
+footer{
+    height: 48px;
+}
+.social__media a{
+    color: var(--color-black);
+    text-decoration: none;
+}
+.social__media a:hover{
+    color: var(--color-white);
+}
+footer p{
+    font-size: 0.7rem;
+}

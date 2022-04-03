@@ -1,0 +1,30 @@
+.gift__ideas__container{
+    position: relative;
+}
+.gift__ideas a{
+    text-decoration: none;
+}
+.gift__ideas{
+    max-width: 450px;
+}
+@media screen and (min-width: 1400px) {
+    .gift__ideas__container {
+        align-items: flex-start;
+        padding-left: 150px;
+    }
+
+    .gift__ideas__img {
+    position: absolute;
+    background-image: var(--gift-ideas-img);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0% 0% 50% 50%;
+    top: 0;
+    right: 0;
+    height: 550px;
+    width: 550px;
+    box-shadow: 0 5px 10px #0005;
+}
+   
+}
